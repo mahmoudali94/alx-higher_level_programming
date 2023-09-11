@@ -4,5 +4,5 @@
 
 def print_list_integer(my_list=[]):
     if my_list:
-        for item in reversed(my_list):
-            print("{:d}".format(item))
+        for i in len(my_list):
+            print("{:d}".format(my_list[i]))
